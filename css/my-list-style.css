@@ -1,3 +1,57 @@
 /**
  TODO(you): Add CSS for the list that you create yourself!
 */
+/**
+ TODO(you): Write the CSS necessary to complete HW1!
+*/
+
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 5vh;
+    width: 100%;
+    background: gray;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10vw;
+    padding-bottom: 0;
+    border-bottom: 1px solid #e6e6e6;
+    color: white;
+}
+
+.body {
+    margin-top: 5vh;
+}
+.parallax {
+    background-image: url(../images/header.jpg);
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.body h1 {
+    margin-bottom: 0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.middle {
+    width: calc(100%/3);
+    background: powderblue;
+}
+
+.start, .end {
+    width: calc(100%/3);
+}

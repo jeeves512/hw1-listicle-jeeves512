@@ -1,3 +1,94 @@
-/**
- TODO(you): Write the CSS necessary to complete HW1!
-*/
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-txt {
+    color: white;
+    font-size: 36px;
+    font-weight: normal;
+    font-family: 'Roboto Slab', 'serif';
+    text-align: center;
+    max-width: 780px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    height: 100px;
+    margin-top: -50px;
+    border: solid white;
+    border-width: 1px;
+    border-color: white;
+}
+
+.profile-txt {
+    border-bottom: solid #e6e6e6;
+    border-width: 2px;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+    font-family: 'Roboto Slab', 'serif';
+    font-size: 18px;
+    color: rgb(51,51,51);
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-items {
+    display: flex;
+    flex-direction: row;
+    max-width: 66.7%;
+    margin-bottom: 120px;
+}
+
+.item-number {
+    font-size: 30px;
+    padding-right: 40px;
+    color: rgba(0, 0, 0, 0.25)
+}
+
+
+.item-content h2 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+.item-content p {
+    font-family: 'Roboto Slab', 'serif';
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+}
+
+.item-content img {
+    width: 100%;
+}
+
+a:link {
+    text-decoration: none;
+    color: #42b4d6;
+}
